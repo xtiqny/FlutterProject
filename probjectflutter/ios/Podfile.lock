@@ -1,0 +1,60 @@
+PODS:
+  - cn21base (0.0.1):
+    - Flutter
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - Reachability (3.2)
+  - restfulapi (0.0.1):
+    - Flutter
+  - unirouter (0.0.1):
+    - Flutter
+    - flutter_boost
+
+DEPENDENCIES:
+  - cn21base (from `.symlinks/plugins/cn21base/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_boost (from `.symlinks/plugins/flutter_boost/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - restfulapi (from `.symlinks/plugins/restfulapi/ios`)
+  - unirouter (from `.symlinks/plugins/unirouter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  cn21base:
+    :path: ".symlinks/plugins/cn21base/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  Flutter:
+    :path: Flutter
+  flutter_boost:
+    :path: ".symlinks/plugins/flutter_boost/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  restfulapi:
+    :path: ".symlinks/plugins/restfulapi/ios"
+  unirouter:
+    :path: ".symlinks/plugins/unirouter/ios"
+
+SPEC CHECKSUMS:
+  cn21base: 9bcb34d3520e8e87813bccb8c781cc999f414ada
+  connectivity: c72716e202a1225ec4810740d5cb56b8ae3bf4cc
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_boost: a7cfa776b75329d5e7d101d0cd33e75042bcde69
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  restfulapi: bcc55e65bb94fb5e414cb549833b333a27e21ce6
+  unirouter: 9798098392f5d351a06b1bb030515ca4894e9816
+
+PODFILE CHECKSUM: d912e038637682b1a78193e73007a4190f17ea9c
+
+COCOAPODS: 1.9.1

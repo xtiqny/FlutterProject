@@ -1,0 +1,22 @@
+PODS:
+  - cn21base (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - cn21base (from `.symlinks/plugins/cn21base/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+EXTERNAL SOURCES:
+  cn21base:
+    :path: ".symlinks/plugins/cn21base/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  cn21base: 493f5199ddb9f051e251b801e5d83b146236795c
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+
+PODFILE CHECKSUM: a08d378edce4534bf10a2400816adb06bdbd0a48
+
+COCOAPODS: 1.8.4

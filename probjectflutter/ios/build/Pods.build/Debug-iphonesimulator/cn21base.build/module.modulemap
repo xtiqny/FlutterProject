@@ -1,0 +1,11 @@
+framework module cn21base {
+  umbrella header "cn21base-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module cn21base.Swift {
+    header "cn21base-Swift.h"
+    requires objc
+}

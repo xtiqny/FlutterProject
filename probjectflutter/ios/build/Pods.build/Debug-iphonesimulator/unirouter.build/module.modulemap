@@ -1,0 +1,6 @@
+framework module unirouter {
+  umbrella header "unirouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

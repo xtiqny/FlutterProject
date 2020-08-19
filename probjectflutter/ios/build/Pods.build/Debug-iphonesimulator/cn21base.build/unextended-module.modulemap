@@ -1,0 +1,10 @@
+framework module cn21base {
+  umbrella header "cn21base-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module cn21base.__Swift {
+    exclude header "cn21base-Swift.h"
+}

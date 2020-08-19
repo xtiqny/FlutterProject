@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "8241cac5bfebc348bb37bed33873f2fd"
+build_time: [1596523412, 244141000]
+inputs:
+  "/Users/Ricky/Documents/\u6211\u7684\u4ED3\u5E93/work/flutter_common/restfulapi/ios/Classes/SwiftRestfulClientPlugin.swift": [1595822843, 770236827]

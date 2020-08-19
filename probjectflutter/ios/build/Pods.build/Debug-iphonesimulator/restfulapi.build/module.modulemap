@@ -1,0 +1,11 @@
+framework module restfulapi {
+  umbrella header "restfulapi-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module restfulapi.Swift {
+    header "restfulapi-Swift.h"
+    requires objc
+}
