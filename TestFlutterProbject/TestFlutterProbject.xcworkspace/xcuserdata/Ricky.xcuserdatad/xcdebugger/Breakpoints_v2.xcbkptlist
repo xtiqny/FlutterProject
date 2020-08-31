@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CBDAAB85-1226-4091-A4F1-72323991E99D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE7D70D2-1F77-4CA1-91C0-5289E84F19D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFlutterProbject/iOS&#x4e0e;flutter&#x901a;&#x8baf;/MethodChannel/TestMethodChannel/TestFlutterMethodChannel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-getUserInfo"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2D4269-FBFA-48AF-8393-C1986A867854"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFlutterProbject/iOS&#x4e0e;flutter&#x901a;&#x8baf;/MethodChannel/FlutterPluginManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-loadPluginDictionary"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10DF3113-481E-4BEE-8427-40808DC7F852"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFlutterProbject/iOS&#x4e0e;flutter&#x901a;&#x8baf;/MethodChannel/FlutterBasePlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-registerChannelWithRegistrar:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0B27712-D979-4E2B-85FA-FBF9F2EFE5F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFlutterProbject/iOS&#x4e0e;flutter&#x901a;&#x8baf;/MethodChannel/FlutterPluginManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "+registerPlugin:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DC8761D-4A91-475E-AA5D-9DE81A2C4289"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFlutterProbject/iOS&#x4e0e;flutter&#x901a;&#x8baf;/MethodChannel/FlutterPluginManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-registerPlugin:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DC8761D-4A91-475E-AA5D-9DE81A2C4289 - 605974ce47f8aa6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FlutterPluginManager registerPlugin:]"
+                  moduleName = "TestFlutterProbject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ricky/Documents/%E6%88%91%E7%9A%84%E4%BB%93%E5%BA%93/work/FlutterProject/TestFlutterProbject/TestFlutterProbject/iOS%E4%B8%8Eflutter%E9%80%9A%E8%AE%AF/MethodChannel/FlutterPluginManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  uuid = "6DC8761D-4A91-475E-AA5D-9DE81A2C4289 - 37538a13565d27fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__39-[FlutterPluginManager registerPlugin:]_block_invoke"
+                  moduleName = "TestFlutterProbject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ricky/Documents/%E6%88%91%E7%9A%84%E4%BB%93%E5%BA%93/work/FlutterProject/TestFlutterProbject/TestFlutterProbject/iOS%E4%B8%8Eflutter%E9%80%9A%E8%AE%AF/MethodChannel/FlutterPluginManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6DC8761D-4A91-475E-AA5D-9DE81A2C4289 - b77f5fd8e4b6c745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s"
+                  moduleName = "TestFlutterProbject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ricky/Documents/%E6%88%91%E7%9A%84%E4%BB%93%E5%BA%93/work/FlutterProject/TestFlutterProbject/TestFlutterProbject/iOS%E4%B8%8Eflutter%E9%80%9A%E8%AE%AF/MethodChannel/FlutterPluginManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

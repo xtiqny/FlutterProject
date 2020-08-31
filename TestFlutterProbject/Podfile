@@ -1,0 +1,17 @@
+
+
+
+platform:ios,'10.0'
+target'TestFlutterProbject'do
+pod 'AFNetworking',       '4.0.1'
+# UI编写框架 https://github.com/indulgeIn/YBHandyList
+pod 'YBHandyList', '1.0.5'
+# 异步图片加载框架
+#pod 'SDWebImage'
+
+#Flutter Pash
+flutter_application_path = '../flutterapp/'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+# 安装Flutter模块
+install_all_flutter_pods(flutter_application_path)
+end

@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - flutterapp (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - unirouter
+  - unirouter (0.0.1):
+    - Flutter
+    - flutter_boost
+  - YBHandyList (1.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
+  - Flutter (from `../flutterapp/.ios/Flutter/engine`)
+  - flutter_boost (from `../flutterapp/.ios/Flutter/.symlinks/flutter_boost/ios`)
+  - flutterapp (from `../flutterapp/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutterapp/.ios/Flutter/FlutterPluginRegistrant`)
+  - unirouter (from `../flutterapp/.ios/Flutter/.symlinks/unirouter/ios`)
+  - YBHandyList (= 1.0.5)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - YBHandyList
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutterapp/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../flutterapp/.ios/Flutter/.symlinks/flutter_boost/ios"
+  flutterapp:
+    :path: "../flutterapp/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutterapp/.ios/Flutter/FlutterPluginRegistrant"
+  unirouter:
+    :path: "../flutterapp/.ios/Flutter/.symlinks/unirouter/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_boost: a7cfa776b75329d5e7d101d0cd33e75042bcde69
+  flutterapp: 6a90c23548fc4adcc640cd30e602fdc080302725
+  FlutterPluginRegistrant: bf6ddc8095808209b70e3b64420f0649a47be301
+  unirouter: 9798098392f5d351a06b1bb030515ca4894e9816
+  YBHandyList: bf0bf2803bb35569863fe63fd25f4541a4e5fe68
+
+PODFILE CHECKSUM: 212f8449037c6ba316d20b6ab8c0a2293636837a
+
+COCOAPODS: 1.9.1
