@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/fileinfo_page.dart';
+import 'package:flutter_app/fileselect_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -82,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: FileInfoPage(null,null),
+        child: FileSelectPage(),
         // child: Column(
         //   // Column is also a layout widget. It takes a list of children and
         //   // arranges them vertically. By default, it sizes itself to fit its
