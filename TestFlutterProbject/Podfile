@@ -10,7 +10,7 @@ pod 'YBHandyList', '1.0.5'
 #pod 'SDWebImage'
 
 #Flutter Pash
-flutter_application_path = '../flutterapp/'
+flutter_application_path = '../flutter_app/'
 load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 # 安装Flutter模块
 install_all_flutter_pods(flutter_application_path)

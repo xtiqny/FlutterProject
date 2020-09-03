@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'fileselectmodel.dart';
 
 
@@ -53,6 +54,11 @@ Widget buildListData(BuildContext context,String title,String iocnPath)
 
 _fileSelect()
 {
+  FileSelectFinlect cctv = new FileSelectFinlect();
+  var map = {
+    'name': 'cctv',
+  };
+  Future<dynamic> str = cctv.getNativeData('envType',map);
   print('dgdsgda');
 }
 
@@ -63,6 +69,8 @@ class FileSelectPage extends StatefulWidget {
 
 class _FileSelectPageState extends State<FileSelectPage> {
 
+
+
   @override
   Widget build(BuildContext context) {
     List<FileSelectModle> _list = getCurFileDatas();
@@ -72,6 +80,25 @@ class _FileSelectPageState extends State<FileSelectPage> {
         FileSelectModle curmodle = _list[i];
         _listWidget.add(buildListData(context,curmodle.title, curmodle.iconPath));
       }
+
+     const EventChannel _eventChannel = const EventChannel('ios_event_channel');
+
+
+    void _onEvent(dynamic event) {
+      print("我进来了");
+      Map map = event;
+      //此处为从iOS端接收到的数据
+      if (map['key'] == 'wifi'){
+        print("wifi名字:${map['name']}");
+      }
+    }
+
+    void _onError(dynamic error){
+      print("我进入了错误");
+      print("--------------error:${error}");
+    }
+
+    _eventChannel.receiveBroadcastStream("init").listen(_onEvent, onError: _onError);
 
     // 分割线
     var divideTiles = ListTile.divideTiles(context: context, tiles: _listWidget).toList();
